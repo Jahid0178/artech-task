@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit',
+    sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+
+
+.counter-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-content {
+  width: 30%;
+  text-align: center;
+}
+
+.counter-content h2 {
+  margin-bottom: 1rem;
+}
+
+.counter-content button {
+  padding: 0.5rem 3rem;
+  border: 1px solid black;
+  border-radius: 1.8rem;
+  cursor: pointer;
+}
+
+.counter-content button:hover {
+  background: #e9e9e9;
+}

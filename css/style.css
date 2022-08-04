@@ -55,6 +55,16 @@
   transition: 0.5s;
 }
 
-/* .counter-content button:hover {
-  background: #e9e9e9;
-} */
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .counter-content {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 688px) {
+  .counter-content {
+    width: 100%;
+  }
+}

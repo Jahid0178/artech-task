@@ -15,8 +15,8 @@ if (getCount !== null) {
 
 const startCounter = () => {
   setInterval(() => {
-    initialCount += 0.0000005;
-    countNumber.innerText = initialCount.toFixed(7);
-    localStorage.setItem("count", JSON.stringify(initialCount.toFixed(7)));
+    initialCount += 0.000005;
+    countNumber.innerText = initialCount.toFixed(6);
+    localStorage.setItem("count", JSON.stringify(initialCount.toFixed(6)));
   }, 1000);
 };
